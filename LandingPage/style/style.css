@@ -1,0 +1,108 @@
+body{
+
+    
+    margin: 0px 0px;
+    padding: 0px ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-image: url("https://alphadriver.com.br/cms/wp-content/uploads/2021/05/estrada-branca.png");
+
+}
+
+header{
+
+    max-height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #30302e;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.div-header{
+
+    margin-left: 20px;
+}
+
+.image-header{
+
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    
+}
+
+ul .lista-inicio{
+    width: 30px;
+    margin: 20px;
+    
+}
+
+.linha-inicio{
+
+    display: inline-block;
+    margin: 5px
+    
+}
+
+.linha-inicio:hover{
+    color: orangered;
+    transition: 0.5s;
+
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+main{
+    height: 470px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+figcaption{
+    margin-left: 150px;
+    font-weight: bold;
+}
+aside{
+    width: 50%;
+
+}
+
+
+.logos{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 15px;
+    background-color: #30302e;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.logosFooter1{
+    height: 45px;
+    width: 45px;
+    margin: 5px
+}
+.logosFooter2{
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
